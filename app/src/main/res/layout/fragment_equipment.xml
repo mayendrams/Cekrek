@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:text="Panduan Perlengkapan "
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:text="Agar Foto Anda Lebih Memukau"
+            android:textSize="15dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="30sp"
+            android:layout_marginBottom="10dp"
+            android:background="@android:color/black" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_marginTop="-10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="26dp"
+                    android:text="1. Fokus"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mobile Tripod"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="66dp"
+                    android:layout_marginRight="50dp"
+                    android:gravity="start"
+                    android:paddingRight="212dp"
+                    android:text="Dengan menggunakan alat ini dengan kita pasangkan smartphone ke holder U, kita dapat membuat foto menjadi lebih stabil dan tidak blur. Tips : Foto dan Video akan lebih stabil dibandingkan menggunakan genggaman tangan, setting tripod dalam mode lipat."
+                    android:textAlignment="viewStart" />
+
+
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="144dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/tripod" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Attachable/Clip Lens"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="144dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="218dp"
+                    android:layout_marginRight="218dp"
+                    android:src="@drawable/lensa" />
+
+                <TextView
+                    android:layout_width="228dp"
+                    android:layout_height="117dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="66dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:text="Terdapat banyak tipe lensa mulai dari fish eye, telephoto, wide angle, hingga lensa anamorphic, manfaatkan lensa-lensa sesuai kebutuhan anda dalam menangkap momen terbaik!" />
+
+            </RelativeLayout><RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="26dp"
+                    android:text="1. Fokus"
+                    android:textColor="@android:color/white"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Mobile Tripod"
+                    android:textSize="30sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="66dp"
+                    android:layout_marginRight="50dp"
+                    android:gravity="start"
+                    android:paddingRight="212dp"
+                    android:text="Dengan menggunakan alat ini dengan kita pasangkan smartphone ke holder U, kita dapat membuat foto menjadi lebih stabil dan tidak blur. Tips : Foto dan Video akan lebih stabil dibandingkan menggunakan genggaman tangan, setting tripod dalam mode lipat."
+                    android:textAlignment="viewStart" />
+
+
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="144dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/tripod" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Attachable/Clip Lens"
+                    android:textSize="30sp" />
+
+                <ImageView
+                    android:layout_width="172dp"
+                    android:layout_height="144dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_marginEnd="218dp"
+                    android:layout_marginRight="218dp"
+                    android:src="@drawable/lensa" />
+
+                <TextView
+                    android:layout_width="228dp"
+                    android:layout_height="117dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginStart="18dp"
+                    android:layout_marginLeft="180dp"
+                    android:layout_marginTop="66dp"
+                    android:layout_marginEnd="0dp"
+                    android:layout_marginRight="0dp"
+                    android:text="Terdapat banyak tipe lensa mulai dari fish eye, telephoto, wide angle, hingga lensa anamorphic, manfaatkan lensa-lensa sesuai kebutuhan anda dalam menangkap momen terbaik!" />
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

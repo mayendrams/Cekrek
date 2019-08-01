@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1054082380341",
+    "firebase_url": "https://cekrek-mayendrams.firebaseio.com",
+    "project_id": "cekrek-mayendrams",
+    "storage_bucket": "cekrek-mayendrams.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1054082380341:android:5653df900fda2ae2",
+        "android_client_info": {
+          "package_name": "com.mayendrams.cekrek"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1054082380341-l7ba9to3q97p2rhjrg2m5oa6orkutgsa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mayendrams.cekrek",
+            "certificate_hash": "4ab980a247d5fd7af575fe46e6d5a18a4bf6d085"
+          }
+        },
+        {
+          "client_id": "1054082380341-ojtbo6j5n5ktkqmme457a0elsoia5100.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAxP8Awd-tWhriiNpKigjE8Y-CgHFyw8Hs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1054082380341-ojtbo6j5n5ktkqmme457a0elsoia5100.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

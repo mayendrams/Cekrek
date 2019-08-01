@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Cekrek</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="tips_trik"><![CDATA[Tips & Trik]]></string>
+    <string name="daftar">doesn\'t have account? <b>Register</b></string>
+</resources>

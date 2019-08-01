@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_tips"
+            android:icon="@drawable/ic_tips"
+            android:title="@string/tips_trik" />
+        <item
+            android:id="@+id/nav_equipment"
+            android:icon="@drawable/ic_gear"
+            android:title="Perlengkapan" />
+    </group>
+
+    <item android:title="Sosial">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_share"
+                android:title="Bagikan" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_send"
+                android:title="Send" />
+        </menu>
+
+    </item>
+
+</menu>
